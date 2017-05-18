@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:attrs="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange_transparent">
+
+        <demo.solar.tp.hamtv.widget.stack.SwipeStack
+            android:id="@+id/swipeStack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_swipestack"
+            app:animation_duration="400"
+            app:swipe_rotation="0"
+            app:stack_rotation="4"
+            app:stack_size="3"/>
+
+    </FrameLayout>
+
+</layout>
